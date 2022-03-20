@@ -13,19 +13,28 @@
 </head>
 <body>
   <section>
-    <div class="card">
+    <div class="card" id="card">
         <img class="star" src="images/icon-star.svg">
       <h1>How did we do?</h1>
       <p>Please let us know how we did with your support request. All feedback is appriciated to help us improve our offering!</p>
       <div class="rating">
-        <button class="rating-btn">1</button>
-        <button class="rating-btn">2</button>
-        <button class="rating-btn">3</button>
-        <button class="rating-btn">4</button>
-        <button class="rating-btn">5</button>
+        <button class="rating-btn" value="1">1</button>
+        <button class="rating-btn" value="2">2</button>
+        <button class="rating-btn" value="3">3</button>
+        <button class="rating-btn" value="4">4</button>
+        <button class="rating-btn" value="5">5</button>
       </div>
-      <button class="submit">SUBMIT</button>
+      <button class="submit" id="submit">SUBMIT</button>
     </div>
+
+    <!-- Thank you Section -->
+    <div class="thankyou-card hidden" id="thankyou-card">
+      <img class="thankyou" src="images/illustration-thank-you.svg">
+      <p class="rate">You selected 4 out of 5</p>
+      <h1 class="thankyou-h1">Thank you!</h1>
+      <p class="thankyou-p">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+  </div>
   </section>
+  <script src="index.js"></script>
 </body>
 </html>

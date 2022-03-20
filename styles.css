@@ -47,6 +47,11 @@ button{
     height: 40px;
     width: 40px;
 }
+.rating-btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    cursor: pointer;
+}
 .submit{
     margin: 10px 0px;
     width: 100%;
@@ -56,5 +61,43 @@ button{
     padding: 10px;
     display: block;
 }
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+/* /////////////////// */
+
+.thankyou-card{
+    /* background-color: hsl(213, 19%, 18%); */
+    background-image: linear-gradient(hsl(211, 17%, 25%),hsl(212, 21%, 16%));
+    width: 300px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.thankyou{
+    display: block;
+    margin: auto;
+}
+.rate{
+    display: inline-block;
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    margin: 15px 70px 10px;
+    padding: 6px 10px;
+    background-color: hsl(218, 17%, 27%);
+    border-radius: 20px;
+}
+.thankyou-h1{
+    text-align: center;
+}
+.thankyou-p{
+    text-align: center;
+}
+
 
 /* font-family: 'Overpass', sans-serif; */
